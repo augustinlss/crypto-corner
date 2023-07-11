@@ -1,0 +1,33 @@
+.input-wrapper {
+    background-color: white;
+    padding: 15px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 8px #ddd;
+}
+
+.input{
+    background-color: transparent;
+    border: none;
+    height: 100%;
+    font-size: 1.25rem;
+    width: 100%;
+    margin-left: 5px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.input:focus{
+    outline: none;
+}
+
+#search-icon {
+    color: royalblue;
+}
+
+@media screen and (max-width: 490px) {
+    .input-wrapper {
+        padding: 8px;
+    }
+    .input {
+        font-size: 12px;
+    }
+}
