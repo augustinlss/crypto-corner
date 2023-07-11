@@ -1,1 +1,1 @@
-hello
+Web app for simple visualisation of crypto prices.
